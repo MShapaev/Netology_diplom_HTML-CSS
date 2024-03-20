@@ -41,7 +41,6 @@ body {
 
 .header {
     position: relative;
-    padding-top: 1px;
     min-height: 450px;
     width: 100%;
     background-color: gray;
@@ -1142,10 +1141,10 @@ h2.popup {
     .logo_1 {
         width: 269px;
         height: 61px;
-        top: 0;
+        top: 113px;
         left: 0;
         display: block;
-        margin: 227px auto 0;
+        margin: 0 auto 258px;
     }
 
     .burger-menu {
@@ -1155,7 +1154,7 @@ h2.popup {
         position: relative;
         width: 23px;
         height: 23px;
-        top: 32px;
+        top: 2px;
         right: 16px;
         margin: -290px 0;
     }
