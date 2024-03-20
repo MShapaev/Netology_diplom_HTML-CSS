@@ -713,7 +713,7 @@ p.copy {
 
 /* popup-section */
 
-.popup_hidden {
+.popup {
     position: fixed;
     top: 0;
     right: 0;
@@ -721,10 +721,13 @@ p.copy {
     left: 0;
     background-color: rgba(0, 0, 0, .6);
     display: flex;
-    display: none;
     justify-content: center;
     align-items: center;
     z-index: 3;
+}
+
+.hidden {
+    display: none;
 }
 
 .popup-content {
